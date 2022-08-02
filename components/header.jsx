@@ -8,7 +8,7 @@ const Header = () => {
         <header className='grid grid-cols-3 shadow-md bg-white sticky top-0 p-3 md:p-5 md:px-10 z-50'>
             {/* top  */}
             <div className='relative flex items-center h-10 cursor-pointer my-auto'>
-                <Image src={airbnb} layout='fill' objectFit='contain' objectPosition='left' />
+                <Image src={airbnb} alt='header img' layout='fill' objectFit='contain' objectPosition='left' />
             </div>
             {/* middle */}
             <div className='flex h-10 items-center justify-between md:border-2 md:rounded-full md:shadow-sm mx-2'>

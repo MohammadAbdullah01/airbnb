@@ -9,7 +9,6 @@ import LargeCard from '../components/largeCard'
 import Footer from '../components/footer'
 
 export default function Home({ items, mediumcartitems }) {
-  console.log(mediumcartitems);
   return (
     <div>
       <Head>

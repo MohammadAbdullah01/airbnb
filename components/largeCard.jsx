@@ -6,7 +6,7 @@ const LargeCard = ({ img, title, desc, btntext }) => {
     return (
         <section className='relative mt-16'>
             <div className='relative w-full h-96'>
-                <Image src={img} layout='fill' objectFit='cover' className='rounded-lg' />
+                <Image alt='hero img' src={img} layout='fill' objectFit='cover' className='rounded-lg' />
             </div>
             <div className='absolute top-32 pl-3'>
                 <h1 className='text-3xl font-bold'>{title}</h1>
