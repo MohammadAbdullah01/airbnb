@@ -3,8 +3,9 @@ import Image from 'next/image'
 
 
 const LargeCard = ({ img, title, desc, btntext }) => {
+
     return (
-        <section className='relative mt-16'>
+        <section className='relative mt-16 mb-5'>
             <div className='relative w-full h-96'>
                 <Image alt='hero img' src={img} layout='fill' objectFit='cover' className='rounded-lg' />
             </div>
