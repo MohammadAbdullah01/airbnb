@@ -4,6 +4,7 @@ import Header from '../components/header';
 import { useRouter } from 'next/router'
 import { format } from 'date-fns'
 import InfoCard from '../components/infoCard';
+import MapBox from '../components/map';
 
 
 const Search = ({ searchResults }) => {
@@ -34,6 +35,9 @@ const Search = ({ searchResults }) => {
                     </div>
 
                 </ section>
+                <section className='hidden lg:inline-flex min-w-[400px]'>
+                    <MapBox />
+                </section>
             </main>
             <Footer />
         </>
